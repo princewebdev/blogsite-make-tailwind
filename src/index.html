@@ -36,23 +36,23 @@
  </header>
  <!-- header end here -->
  <!-- banner start here  -->
- <div class=" w-full h-screen " style="background: url(../images/header-bgwebp.webp);">
+ <div class="w-full lg:h-screen md:h-full sm:h-full " style="background: url(../images/header-bgwebp.webp) center center no-repeat; background-size: cover;">
     
     <div class="text-white banner-content w-4/5 mx-auto">
-        <div class="pt-[25%]">
-            <h2 class="font-bold text-5xl leading-[58px] "> A Discount Toner Cartridge <br> Is Better Than Ever. </h2>
+        <div class="lg:pt-[160px] md:pt-36 sm:pt-36">
+            <h2 class="font-bold lg:text-5xl md:text-4xl sm:text-3xl "> A Discount Toner Cartridge <br> Is Better Than Ever. </h2>
         </div>
-        <div class="flex pt-[160px]">
-            <div class=" basis-2/4 text-left">
-                <p> <i class="fa fa-heart-o"  aria-hidden="true"></i>  15 Likes</p>
+        <div class="flex pt-[160px] justify-between">
+            <div class=" lg:basis-2/4  text-left ">
+                <p class="lg:!text-[16px] md:!text-[14px] sm:!text-[12px]"> <i class="fa fa-heart-o"  aria-hidden="true"></i>  15 Likes</p>
                 <p> <i class="fa fa-comment-o" aria-hidden="true"></i> 02 Comments </p>
             </div>
             <div class="flex basis-2/4 text-right justify-end items-center">
-                <div class="usr-meta">
+                <div class="lg:!text-[16px] md:!text-[14px] sm:!text-[12px]">
                     <h3 class="text-lg font-bold">Mark wiens</h3>
                     <p>12 Dec, 2017 11:21 am</p>
                 </div>
-                <img class="w-7 ml-1 h-[80%]" src="https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/265294554_1274949252930208_9158973965325310357_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFOkUcMADPmyJ3-A0B7OTo3tGdtPXMsomi0Z209cyyiaM8ZAlCGKMrtDvkODMwqC5yBJGuLR_CrSYnhwWgHvSwx&_nc_ohc=Z3u8Q9xslXgAX8BBNy6&_nc_oc=AQk3-ne_Q5nWwygt7PacWXIUr6i8NIMOO9_deqrjoQF8aW6_RJVUe3RDXrMWJAeJDjUvqRME0d4NoS-2Ok9aBAnK&_nc_ht=scontent-sin6-4.xx&oh=00_AfA4VLDO3wBBdT9C5-11FZClFdU_FxB-GMcM5SSCSYB5HQ&oe=63C99099" alt="">
+                <img class="w-7 ml-1 h-[80%]" src="../images/c2.webp" alt="">
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
  <!-- banner end here  -->
 
  <!-- categories start here -->
- <div class="w-4/5 mx-auto my-20">
+ <div class="lg:w-4/5 sm:w-[90%] mx-auto lg:my-20 md:my-14 sm:my-10 container">
     <div class="text-center pb-20">
         <h2 class="font-semibold text-4xl leading-[46px] text-[#222]">Latest News from all categories</h2>
         <p class="text-sm text-[#777777]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua.</p>
@@ -166,13 +166,14 @@
 
  <!-- fashion start here -->
  <div class="w-full  py-20 ...">
-    <div class="container w-4/5 mx-auto ">
+    <div class="container w-4/5 mx-auto">
         <div class="text-center pb-20">
             <h2 class="font-semibold text-4xl leading-[46px] text-[#222]">Fashion News This Week</h2>
-            <p class="text-sm text-[#777777]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua.</p>
+            <p class="text-sm text-[#777777] md:hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua.</p>
+            <p class="text-sm text-[#777777] hidden md:block sm:block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="flex mb-16">
-            <div class="basis-3/12 mr-4">
+        <div class="grid mb-16 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-4 md:gap-y-6 sm:gap-6 sm:gap-x-6">
+            <div class="">
                 <img class="hover:scale-105 hover:duration-1000 duration-1000" src="../images/f1.webp" alt="">
                 <p class="inline-block py-1 px-4 mt-5 mb-4 bg-black text-white text-sm font-extralight">10 Jan 2018</p>
                 <h4 class="mb-4 "><a href="#" class="hover:text-regal-blue text-lg text-[#222] font-semibold p-0 leading-5" >Addiction When Gambling <br> Becomes A Problem</a></h4>
@@ -182,7 +183,7 @@
                     <p> <i class="fa fa-comment-o" aria-hidden="true"></i> 02 Comments </p>
                 </div>
             </div>
-            <div class="basis-3/12 mx-4">
+            <div class="">
                 <img class="hover:scale-105 hover:duration-1000 duration-1000" src="../images/f2.webp" alt="">
                 <p class="inline-block py-1 px-4 mt-5 mb-4 bg-black text-white text-sm font-extralight">10 Jan 2018</p>
                 <h4 class="mb-4 "><a href="#" class="hover:text-regal-blue text-lg text-[#222] font-semibold p-0 leading-5" >Addiction When Gambling <br> Becomes A Problem</a></h4>
@@ -192,7 +193,7 @@
                     <p> <i class="fa fa-comment-o" aria-hidden="true"></i> 02 Comments </p>
                 </div>
             </div>
-            <div class="basis-3/12 mx-4">
+            <div class="">
                 <img class="hover:scale-105 hover:duration-1000 duration-1000" src="../images/f3.webp" alt="">
                 <p class="inline-block py-1 px-4 mt-5 mb-4 bg-black text-white text-sm font-extralight">10 Jan 2018</p>
                 <h4 class="mb-4 "><a href="#" class="hover:text-regal-blue text-lg text-[#222] font-semibold p-0 leading-5" >Addiction When Gambling <br> Becomes A Problem</a></h4>
@@ -202,7 +203,7 @@
                     <p> <i class="fa fa-comment-o" aria-hidden="true"></i> 02 Comments </p>
                 </div>
             </div>
-            <div class="basis-3/12 ml-4">
+            <div class="">
                 <img class="hover:scale-105 hover:duration-1000 duration-1000" src="../images/f4.webp" alt="">
                 <p class="inline-block py-1 px-4 mt-5 mb-4 bg-black text-white text-sm font-extralight">10 Jan 2018</p>
                 <h4 class="mb-4 "><a href="#" class="hover:text-regal-blue text-lg text-[#222] font-semibold p-0 leading-5" >Addiction When Gambling <br> Becomes A Problem</a></h4>
@@ -272,9 +273,9 @@
  <!-- footer start here -->
  <footer class="w-full py-20 bg-[#222] ...">
     <div class="container w-4/5 mx-auto">
-        <div class="flex text-white">
-            <div class="basis-1/4">
-                <h4 class="text-lg font-semibold mb-5">Top Products</h4>
+        <div class="grid text-white lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 ">
+            <div class="footer-sub-head">
+                <h4 class="text-lg font-semibold ">Top Products</h4>
                <ul>
                     <li> <a class="text-sm font-light hover:text-regal-blue mt-2 inline-block" href="#">Managed Website</a></a></li>
                     <li> <a class="text-sm font-light hover:text-regal-blue mt-2 inline-block" href="#">Manage Reputation</a></a></li>
@@ -282,27 +283,25 @@
                     <li> <a class="text-sm font-light hover:text-regal-blue mt-2 inline-block" href="#">Marketing Service</a></a></li>
                </ul>
             </div>
-            <div class="basis-1/2">
-                <h4 class="text-lg font-semibold mb-5">Newsletter</h4>
+            <div class="">
+                <h4 class="footer-sub-head">Newsletter</h4>
                 <p class="text-sm font-light mt-2"> You can trust us. we only send promo offers, not a single spam.</p>
-                <div class="flex mt-4">
-                    <div class="basis-[60%] mr-3"><input class="border-none leading-9 bg-white font-light rounded-full w-full inline-block text-[#777] px-5" type="email" placeholder="Enter your Email"></div>
-                    <div class="basis-[40%] ml-3"><button class="leading-10 pl-7 pr-14 rounded-3xl border-none inline-block font-semibold duration-300 cursor-pointer uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 linear-gradient(45deg, #62bdfc 0%, #8490ff 100%)"> SUBSCRIBE <span class=" hover:right-8 hover:duration-300 "> <i class="fa fa-long-arrow-right font-thin pl-2 inline-block"> </i></span></button></div>
+                <div class="grid grid-cols-1 gap-1">
+                    <div><input class="border-none leading-9 bg-white font-light rounded-full w-full inline-block text-[#777] px-7 mt-1" type="email" placeholder="Enter your Email"></div>
+                    <div><button class="leading-10 px-7 w-full sm-w-full rounded-3xl border-none inline-block font-semibold duration-300 cursor-pointer uppercase  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 linear-gradient(45deg, #62bdfc 0%, #8490ff 100%)"> SUBSCRIBE <span class=" hover:right-8 hover:duration-300 "> <i class="fa fa-long-arrow-right font-thin pl-2 inline-block"> </i></span></button></div>
                 </div>
             </div>
-            <div class="basis-1/4 mb-2">
-                <h4 class="text-lg font-semibold mb-5">Instragram Feed</h4>
-                <div class="flex">
-                    <div class="basis-1/4 mr-1"><img src="../images/i1.webp" alt=""></div>
-                    <div class="basis-1/4 mr-1"><img src="../images/i2.webp" alt=""></div>
-                    <div class="basis-1/4 mr-1"><img src="../images/i3.webp" alt=""></div>
-                    <div class="basis-1/4 ml-1"><img src="../images/i4.webp" alt=""></div>
-                </div>
-                <div class="flex mt-2">
-                    <div class="basis-1/4 mr-1"><img src="../images/i5.webp" alt=""></div>
-                    <div class="basis-1/4 mr-1 "><img src="../images/i6.webp" alt=""></div>
-                    <div class="basis-1/4 mr-1"><img src="../images/i7.webp" alt=""></div>
-                    <div class="basis-1/4 ml-1"><img src="../images/i8.webp" alt=""></div>
+            <div class="">
+                <h4 class="footer-sub-head">Instragram Feed</h4>
+                <div class="grid grid-cols-4 gap-4">
+                    <div><img src="../images/i1.webp" alt=""></div>
+                    <div><img src="../images/i2.webp" alt=""></div>
+                    <div><img src="../images/i3.webp" alt=""></div>
+                    <div><img src="../images/i4.webp" alt=""></div>
+                    <div><img src="../images/i5.webp" alt=""></div>
+                    <div><img src="../images/i6.webp" alt=""></div>
+                    <div><img src="../images/i7.webp" alt=""></div>
+                    <div><img src="../images/i8.webp" alt=""></div>
                 </div>
             </div>
         </div>
